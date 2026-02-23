@@ -1,6 +1,8 @@
 ============================================================
 GUIA ESSENCIAL – LINUX PARA BACKEND
 Autor: Orlando Conceição
+============================================================
+
 INTRODUÇÃO
 
 Linux é o sistema operacional usado na maioria dos servidores,
@@ -10,7 +12,6 @@ Saber Linux não é decorar 500 comandos.
 É dominar os comandos certos que resolvem problemas reais.
 
 ============================================================
-
 NAVEGAÇÃO
 ============================================================
 
@@ -55,6 +56,7 @@ Evite /mnt/c se precisar usar permissões Linux.
 
 ============================================================
 2) PERMISSÕES
+============================================================
 
 Linux controla acesso com permissões.
 
@@ -93,6 +95,7 @@ Executa comando como administrador.
 
 ============================================================
 3) PROCESSOS
+============================================================
 
 Processo = programa rodando.
 
@@ -121,6 +124,7 @@ Precisa reiniciar algo manualmente
 
 ============================================================
 4) LOGS
+============================================================
 
 Logs mostram o que o sistema ou aplicação está fazendo.
 
@@ -146,6 +150,7 @@ cat app.log | grep ERROR
 
 ============================================================
 5) PIPES E FILTROS
+============================================================
 
 Pipe (|) envia resultado de um comando para outro.
 
@@ -172,6 +177,7 @@ Encontrar informação rápida
 
 ============================================================
 6) VARIÁVEIS DE AMBIENTE
+============================================================
 
 Muito usadas em backend para configurar:
 
@@ -207,6 +213,7 @@ Deploy em servidor
 
 ============================================================
 7) DIFERENÇA ENTRE WSL E WINDOWS
+============================================================
 
 /home/orlando
 É sistema Linux real.
@@ -226,6 +233,7 @@ Projetos Linux → sempre em /home/seu_usuario
 
 ============================================================
 CONCLUSÃO
+============================================================
 
 Se você domina:
 
@@ -255,6 +263,5 @@ Script não roda → ajustar permissão
 Deploy falhou → verificar variável de ambiente
 
 Isso já é base profissional.
-
 ============================================================
 
