@@ -1,0 +1,261 @@
+============================================================
+GUIA ESSENCIAL – LINUX PARA BACKEND
+Autor: Orlando Conceição
+INTRODUÇÃO
+
+Linux é o sistema operacional usado na maioria dos servidores,
+VPS, cloud (AWS, Azure, GCP) e ambientes de produção backend.
+
+Saber Linux não é decorar 500 comandos.
+É dominar os comandos certos que resolvem problemas reais.
+
+============================================================
+
+NAVEGAÇÃO
+============================================================
+
+Comandos básicos para se mover no sistema.
+
+pwd
+Mostra o diretório atual.
+
+ls
+Lista arquivos da pasta atual.
+
+ls -l
+Lista detalhada (mostra permissões, dono, tamanho).
+
+ls -a
+Mostra arquivos ocultos.
+
+cd nome_da_pasta
+Entra em uma pasta.
+
+cd ..
+Volta uma pasta.
+
+cd ~
+Vai para a pasta home do usuário (/home/orlando).
+
+mkdir nome
+Cria uma pasta.
+
+touch arquivo.txt
+Cria um arquivo vazio.
+
+rm arquivo.txt
+Remove arquivo.
+
+rm -r pasta
+Remove pasta com conteúdo.
+
+IMPORTANTE:
+Sempre trabalhe dentro de /home/seu_usuario no WSL.
+Evite /mnt/c se precisar usar permissões Linux.
+
+============================================================
+2) PERMISSÕES
+
+Linux controla acesso com permissões.
+
+ls -l
+Mostra algo como:
+
+-rw-r--r--
+
+Estrutura:
+dono | grupo | outros
+
+Tipos:
+r = leitura
+w = escrita
+x = execução
+
+chmod 644 arquivo.txt
+Permissão comum para arquivos:
+Dono: leitura e escrita
+Outros: apenas leitura
+
+chmod 755 script.sh
+Permissão comum para scripts:
+Dono: tudo
+Outros: leitura e execução
+
+chmod +x script.sh
+Adiciona permissão de execução.
+
+IMPORTANTE:
+Não use 777 em produção.
+chmod 777 dá acesso total a todos.
+
+sudo comando
+Executa comando como administrador.
+
+============================================================
+3) PROCESSOS
+
+Processo = programa rodando.
+
+ps
+Mostra processos simples.
+
+ps aux
+Lista detalhada de todos os processos.
+
+top
+Mostra uso de CPU e memória em tempo real.
+
+kill PID
+Encerra processo pelo número.
+
+kill -9 PID
+Força encerramento.
+
+Backend usa isso quando:
+
+API trava
+
+Serviço não responde
+
+Precisa reiniciar algo manualmente
+
+============================================================
+4) LOGS
+
+Logs mostram o que o sistema ou aplicação está fazendo.
+
+cat arquivo.log
+Mostra conteúdo completo.
+
+tail arquivo.log
+Mostra últimas linhas.
+
+tail -f arquivo.log
+Mostra log em tempo real.
+
+Backend usa isso para:
+
+Ver erros
+
+Diagnosticar falhas
+
+Monitorar requisições
+
+Exemplo real:
+cat app.log | grep ERROR
+
+============================================================
+5) PIPES E FILTROS
+
+Pipe (|) envia resultado de um comando para outro.
+
+Exemplo:
+
+ls -l | grep .sh
+
+Isso lista apenas arquivos .sh
+
+cat log.txt | grep ERROR
+
+Filtra apenas linhas com "ERROR".
+
+grep palavra arquivo.txt
+Procura palavra dentro do arquivo.
+
+Isso é muito usado para:
+
+Buscar erro em log
+
+Filtrar dados
+
+Encontrar informação rápida
+
+============================================================
+6) VARIÁVEIS DE AMBIENTE
+
+Muito usadas em backend para configurar:
+
+Banco de dados
+
+Senhas
+
+Ambiente (dev, prod)
+
+URLs
+
+Criar variável temporária:
+
+export APP_ENV=development
+
+Ver valor:
+
+echo $APP_ENV
+
+Listar todas:
+
+printenv
+
+Essas variáveis só duram enquanto o terminal está aberto.
+
+Backend usa isso para:
+
+Configurar API
+
+Configurar conexão com banco
+
+Deploy em servidor
+
+============================================================
+7) DIFERENÇA ENTRE WSL E WINDOWS
+
+/home/orlando
+É sistema Linux real.
+
+Permite:
+chmod
+usuários
+scripts executáveis
+
+/mnt/c/Users/...
+É sistema de arquivos do Windows.
+
+Não permite controle total de permissões Linux.
+
+Regra profissional:
+Projetos Linux → sempre em /home/seu_usuario
+
+============================================================
+CONCLUSÃO
+
+Se você domina:
+
+Navegação
+
+Permissões
+
+Processos
+
+Logs
+
+Pipes
+
+Variáveis de ambiente
+
+Você já tem a base que backend usa no dia a dia.
+
+Linux para backend não é sobre decorar.
+É sobre saber resolver:
+
+API travou → ver processo
+
+Deu erro → ler log
+
+Script não roda → ajustar permissão
+
+Deploy falhou → verificar variável de ambiente
+
+Isso já é base profissional.
+
+============================================================
+
+https://github.com/orlandoconceicao/linux-studies.git
