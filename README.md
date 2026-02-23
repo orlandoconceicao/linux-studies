@@ -6,10 +6,6 @@ Projeto focado em administração de sistemas, fundamentos DevOps, segurança e 
 
 ---
 
-# 📁 REPOSITÓRIOS DE ESTUDO
-
----
-
 # 📝 logs.sh — Manipulação de Logs
 
 ## 🎯 Objetivo
