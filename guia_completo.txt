@@ -257,3 +257,4 @@ Deploy falhou → verificar variável de ambiente
 Isso já é base profissional.
 
 ============================================================
+
