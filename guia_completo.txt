@@ -257,5 +257,3 @@ Deploy falhou → verificar variável de ambiente
 Isso já é base profissional.
 
 ============================================================
-
-https://github.com/orlandoconceicao/linux-studies.git
