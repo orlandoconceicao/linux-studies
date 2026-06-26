@@ -1,4 +1,4 @@
-# 🐧 SHELL STUDIES — LINUX & AUTOMAÇÃO
+# SHELL STUDIES — LINUX & AUTOMAÇÃO
 
 Repositório dedicado ao estudo prático de comandos Linux e automação com Shell Script.
 
@@ -6,15 +6,15 @@ Projeto focado em administração de sistemas, fundamentos DevOps, segurança e 
 
 ---
 
-# 📝 logs.sh — Manipulação de Logs
+# logs.sh — Manipulação de Logs
 
-## 🎯 Objetivo
+## Objetivo
 - Entender estrutura de logs no Linux
 - Manipular arquivos de log
 - Automatizar análise de eventos
 - Filtrar erros e informações críticas
 
-## 🧠 Conceitos Estudados
+## Conceitos Estudados
 - stdout e stderr
 - Redirecionamento (>, >>, 2>)
 - tail -f
@@ -23,13 +23,13 @@ Projeto focado em administração de sistemas, fundamentos DevOps, segurança e 
 - sed
 - /var/log
 
-## ▶️ Execução
+## Execução
 ```bash
 chmod +x logs.sh
 ./logs.sh
 ```
 
-## 📌 Aplicações Reais
+## Aplicações Reais
 - Monitoramento de servidores
 - Auditoria de segurança
 - Debug de aplicações
@@ -37,14 +37,14 @@ chmod +x logs.sh
 
 ---
 
-# 🧭 navegacao.sh — Navegação e Diretórios
+# navegacao.sh — Navegação e Diretórios
 
-## 🎯 Objetivo
+## Objetivo
 - Dominar navegação no Linux
 - Manipular arquivos e diretórios
 - Automatizar organização de projetos
 
-## 🧠 Conceitos Estudados
+## Conceitos Estudados
 - pwd
 - cd
 - ls
@@ -54,27 +54,27 @@ chmod +x logs.sh
 - cp
 - mv
 
-## ▶️ Execução
+## Execução
 ```bash
 chmod +x navegacao.sh
 ./navegacao.sh
 ```
 
-## 📌 Aplicações Reais
+## Aplicações Reais
 - Scripts de deploy
 - Organização de servidores
 - Build automatizado
 
 ---
 
-# 🔐 permissoes.sh — Permissões Linux
+# permissoes.sh — Permissões Linux
 
-## 🎯 Objetivo
+## Objetivo
 - Entender permissões rwx
 - Trabalhar com chmod e chown
 - Gerenciar usuários e grupos
 
-## 🧠 Conceitos Estudados
+## Conceitos Estudados
 - chmod 755 / 644
 - chmod simbólico
 - chown
@@ -82,54 +82,54 @@ chmod +x navegacao.sh
 - sudo
 - segurança Linux
 
-## ▶️ Execução
+## Execução
 ```bash
 chmod +x permissoes.sh
 ./permissoes.sh
 ```
 
-## 📌 Aplicações Reais
+## Aplicações Reais
 - Segurança de servidores
 - Configuração cloud
 - Deploy seguro
 
 ---
 
-# 🔄 pipes.sh — Encadeamento de Comandos
+# pipes.sh — Encadeamento de Comandos
 
-## 🎯 Objetivo
+## Objetivo
 - Dominar o operador |
 - Encadear comandos
 - Criar fluxos de processamento
 
-## 🧠 Conceitos Estudados
+## Conceitos Estudados
 - pipes (|)
 - grep + sort + uniq
 - wc
 - cat
 - redirecionamentos
 
-## ▶️ Execução
+## Execução
 ```bash
 chmod +x pipes.sh
 ./pipes.sh
 ```
 
-## 📌 Aplicações Reais
+## Aplicações Reais
 - Processamento de logs
 - Filtragem de dados
 - Scripts de automação
 
 ---
 
-# ⚙️ processo.sh — Gerenciamento de Processos
+# processo.sh — Gerenciamento de Processos
 
-## 🎯 Objetivo
+## Objetivo
 - Monitorar processos
 - Finalizar processos
 - Trabalhar com background e foreground
 
-## 🧠 Conceitos Estudados
+## Conceitos Estudados
 - ps
 - top
 - htop
@@ -140,28 +140,28 @@ chmod +x pipes.sh
 - fg
 - bg
 
-## ▶️ Execução
+## Execução
 ```bash
 chmod +x processo.sh
 ./processo.sh
 ```
 
-## 📌 Aplicações Reais
+## Aplicações Reais
 - Administração de servidores
 - Debug de aplicações
 - Gerenciamento de serviços
 
 ---
 
-# 🌎 variaveis_ambiente.sh — Variáveis de Ambiente
+# variaveis_ambiente.sh — Variáveis de Ambiente
 
-## 🎯 Objetivo
+## Objetivo
 - Criar variáveis
 - Exportar variáveis
 - Entender PATH
 - Persistir configurações
 
-## 🧠 Conceitos Estudados
+## Conceitos Estudados
 - echo $VAR
 - export
 - .bashrc
@@ -169,20 +169,20 @@ chmod +x processo.sh
 - PATH
 - variáveis locais vs globais
 
-## ▶️ Execução
+## Execução
 ```bash
 chmod +x variaveis_ambiente.sh
 ./variaveis_ambiente.sh
 ```
 
-## 📌 Aplicações Reais
+## Aplicações Reais
 - Configuração AWS CLI
 - Integração com ambientes cloud
 - Deploy automatizado
 
 ---
 
-# 🏆 CONCEITOS CONSOLIDADOS
+# CONCEITOS CONSOLIDADOS
 
 ✔ Administração Linux  
 ✔ Automação com Shell Script  
@@ -194,7 +194,7 @@ chmod +x variaveis_ambiente.sh
 
 ---
 
-# 🎯 OBJETIVO GERAL
+# OBJETIVO GERAL
 
 Construir base sólida em Linux para:
 
@@ -205,9 +205,10 @@ Construir base sólida em Linux para:
 
 ---
 
-# 👨‍💻 Autor
+# Autor
 
 **Orlando Conceição**  
-Cloud & Backend Developer  
 
-📧 orlandoconceicao94@gmail.com  
+Backend Developer  
+
+contato: orlandoconceicao94@gmail.com  
