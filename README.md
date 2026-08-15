@@ -184,13 +184,13 @@ chmod +x variaveis_ambiente.sh
 
 # CONCEITOS CONSOLIDADOS
 
-✔ Administração Linux  
-✔ Automação com Shell Script  
-✔ Segurança de permissões  
-✔ Manipulação de logs  
-✔ Processamento com pipes  
-✔ Gerenciamento de processos  
-✔ Configuração de ambiente  
+- Administração Linux
+- Automação com Shell Script
+- Segurança de permissões
+- Manipulação de logs
+- Processamento com pipes
+- Gerenciamento de processos
+- Configuração de ambiente
 
 ---
 
@@ -207,8 +207,8 @@ Construir base sólida em Linux para:
 
 # Autor
 
-**Orlando Conceição**  
+**Orlando Conceição Vilhalba de Almeida**
 
-Backend Developer  
+Desenvolvedor Backend em formação, desenvolvendo conhecimentos em Linux, automação com Shell e administração de ambientes de desenvolvimento.
 
-contato: orlandoconceicao94@gmail.com  
+GitHub: [orlandoconceicao](https://github.com/orlandoconceicao)
